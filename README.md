@@ -1,6 +1,7 @@
 # AnimeGANv2-ONNX-Sample
 [PyTorch Implementation of AnimeGANv2](https://github.com/bryandlee/animegan2-pytorch)のPythonでのONNX推論サンプルです。<br>
-ONNXに変換したモデルも同梱しています。変換自体を試したい方は[AnimeGANv2_Convert2ONNX.ipynb](AnimeGANv2_Convert2ONNX.ipynb)を使用ください。<br>
+ONNXに変換したモデルも同梱しています。<br>
+変換自体を試したい方はColaboratoryなどで[AnimeGANv2_Convert2ONNX.ipynb](AnimeGANv2_Convert2ONNX.ipynb)を使用ください。<br>
 
 # Requirement(ONNX変換)
 * Pytorch 1.9.0 or later
