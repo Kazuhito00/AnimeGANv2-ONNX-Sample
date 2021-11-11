@@ -13,7 +13,7 @@ def get_args():
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--device", type=int, default=0)
-    parser.add_argument("--file", type=str, default=None)
+    parser.add_argument("--movie", type=str, default=None)
     parser.add_argument("--width", help='cap width', type=int, default=960)
     parser.add_argument("--height", help='cap height', type=int, default=540)
 
@@ -62,8 +62,8 @@ def main():
     cap_width = args.width
     cap_height = args.height
 
-    if args.file is not None:
-        cap_device = args.file
+    if args.movie is not None:
+        cap_device = args.movie
 
     model_path = args.model
     input_size = args.input_size
