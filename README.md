@@ -1,4 +1,5 @@
 # AnimeGANv2-ONNX-Sample
+<img src="https://user-images.githubusercontent.com/37477845/141311350-89e1d170-c452-4ca5-8927-f16f8b415d00.png" width="45%">　<img src="https://user-images.githubusercontent.com/37477845/141311365-e2ea5b17-e553-45fc-b5c0-62d8bfbb4141.png" width="45%"><br>
 [PyTorch Implementation of AnimeGANv2](https://github.com/bryandlee/animegan2-pytorch)のPythonでのONNX推論サンプルです。<br>
 ONNXに変換したモデルも同梱しています。<br>
 変換自体を試したい方はColaboratoryなどで[AnimeGANv2_Convert2ONNX.ipynb](AnimeGANv2_Convert2ONNX.ipynb)を使用ください。<br>
@@ -10,7 +11,7 @@ ONNXに変換したモデルも同梱しています。<br>
 
 # Requirement(ONNX推論)
 * OpenCV 4.5.3.56 or later
-* onnxruntime-gpu 1.9.0 or later ※onnxruntimeでも動作しますが、推論時間がかかるのでGPUをお勧めします
+* onnxruntime-gpu 1.9.0 or later <br>※onnxruntimeでも動作しますが、推論時間がかかるのでGPUをお勧めします
 
 # Demo
 デモの実行方法は以下です。
