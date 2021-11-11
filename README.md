@@ -13,6 +13,10 @@ ONNXに変換したモデルも同梱しています。<br>
 * OpenCV 4.5.3.56 or later
 * onnxruntime-gpu 1.9.0 or later <br>※onnxruntimeでも動作しますが、推論時間がかかるのでGPUをお勧めします
 
+### 推論速度参考値
+GeForce GTX 1050 Ti：約290ms<br>
+GeForce RTX 3060：約120ms
+
 # Demo
 デモの実行方法は以下です。
 ```bash
