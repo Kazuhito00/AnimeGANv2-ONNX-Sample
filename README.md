@@ -41,6 +41,11 @@ python sample_onnx.py
 モデルの入力サイズ<br>
 デフォルト：512
 
+# Application example
+応用例です。<br>
+* [Kazuhito00/AnimeGANv2-Face-Overlay-Demo](https://github.com/Kazuhito00/AnimeGANv2-Face-Overlay-Demo)<br>「PyTorch Implementation of AnimeGANv2」を用いて、生成した顔画像を元の画像に上書きするデモ<br>
+<img src="https://user-images.githubusercontent.com/37477845/141482433-bed41338-2af1-41b9-8af7-fcbad15f66f1.gif" width="50%"><br>
+
 # Reference
 * [bryandlee/animegan2-pytorch](https://github.com/bryandlee/animegan2-pytorch)
 
